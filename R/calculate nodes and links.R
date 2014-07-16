@@ -21,7 +21,7 @@ head(tag.agg)
 dim(tag.agg)
 nrecipe.temp<-ifelse(tag.agg$recipe>10,10,tag.agg$recipe)
 hist(nrecipe.temp)
-tag.agg<-tag.agg[tag.agg$recipe>=10,]
+tag.agg<-tag.agg[tag.agg$recipe>=100,]
 #Lets take out the nodes with only 1 recipe:
 
 ## how many times do the recipes appear? (How many tags they have)
@@ -31,7 +31,7 @@ head(recipe.agg)
 tag.total<-data.frame(tag.agg,totalrecipe=length(unique(dat1$recipe)))
 tag.total$prob.watched<-tag.total$recipe/tag.total$totalrecipe
 
-recipe.tag<-dat1[,c(2,6)]
+recipe.tag<-dat1[dat1$tag %in% tag.agg$tag,c(2,6)]
 recipe.tag.cond<-merge(recipe.tag,recipe.tag,by="recipe")
 recipe.tag.cond.agg<-aggregate(recipe~tag.x+tag.y,recipe.tag.cond,FUN=length)
 colnames(recipe.tag.cond.agg)<-c("taga","tagb","conditional_count")
