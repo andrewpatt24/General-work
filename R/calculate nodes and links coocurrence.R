@@ -59,7 +59,7 @@ links.JSON<-dfToJSON(nodes.and.links$links, 'rowToObject')
 
 full.JSON<-paste0('{"nodes":',nodes.JSON,',"links":',links.JSON,'}')
 
-fileConn<-file("P:/R repositories/general-work/general-work/R/data/jsonoutput.txt")
+fileConn<-file("P:/R repositories/general-work/R/data/jsonoutput.txt")
 writeLines(full.JSON, fileConn)
 close(fileConn)
 
