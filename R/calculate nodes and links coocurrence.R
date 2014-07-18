@@ -38,15 +38,15 @@ head(rdata)
 length(unique(paste(rdata$recipe,",",rdata$tag,",",rdata$author)))==nrow(rdata)
 
 ##Brilliant! Lets just take the top 50 tags for now:
-nauthor<-aggregate(recipe~tag,rdata,FUN=length)
+nauthor<-aggregate(recipe~author,rdata,FUN=length)
 nauthor.order<-nauthor[order(nauthor$recipe,decreasing=TRUE),]
 top50.author<-nauthor.order[1:50,]
-rdata.top50<-rdata[rdata$tag %in% top50.author$tag,]
+rdata.top50<-rdata[rdata$author %in% top50.author$author,]
 
 ##Generate random clustering for now
-clustering<-data.frame(tag=unique(rdata.top50$author),cluster=rbinom(length(unique(rdata.top50$author)),12,0.8))
+clustering<-data.frame(author=unique(rdata.top50$author),cluster=rbinom(length(unique(rdata.top50$author)),12,0.8))
 
-nodes.and.links<-calculateNodesAndLinks(rdata.top50,node.var="tag",link.var="recipe",link.type="cooccur",node.table=clustering,min.link=100)
+nodes.and.links<-calculateNodesAndLinks(rdata.top50,node.var="author",link.var="tag",link.type="cooccur",node.table=clustering,min.link=1000)
 
 str(nodes.and.links)
 
