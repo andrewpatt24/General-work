@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Building new data for profiling
 ========================================================
 
@@ -75,3 +76,82 @@ You're done! Now just run the app using shiny's runApp:
 ```{r eval=FALSE}
 runApp("I:\\201404\\Mine4\\02 Data\\Sprint3\\Cluster profiling\\profile-app")
 ```
+=======
+Building new data for profiling
+========================================================
+
+This is a document to walkthough how to build a dataset for a new a profiling app. The app is built, that given the right data, will automatically update so no need for editing.
+
+We are going to work with our first profiling: Techy vs. non-techy
+
+```{r}
+library(rCharts)
+library(reshape2)
+#install.packages("shiny")
+library(shiny)
+
+##Get micro cluster data
+load(file="I:/201404/Mine4/02 Data/Sprint3/Clustering Solutions/micro_clusters.RData")
+str(micro_clusters)
+##Get original data for profiling.
+load(file="I:/201404/Mine4/02 Data/Sprint3/sprint3_mine4_data_final.RData")
+load(file='I:/201404/Mine4/02 Data/Sprint3/techi clusters/techy_pred.RData')
+
+cluster.data.temp<-merge(sprint3.mine4.data,techy_pred,by="scv_id")
+cluster.data.temp2<-merge(cluster.data.temp,micro_clusters[,c(1,7:10)],by="scv_id")
+cluster.data.temp2$tenure_decile<-cut(cluster.data.temp2$tenure,
+                                breaks=quantile(cluster.data.temp2$tenure, probs=seq(0,1, by=0.1)),
+                                include.lowest=TRUE)
+head(cluster.data.temp2[,c(1:10)])
+```
+
+You can see that our temporary data is at a scv_id level with the necessary inforamtion for modelling.
+
+```{r fig.width=7, fig.height=6}
+summary(cluster.data.temp2$classification)
+```
+
+It is very important that the profiling variable is called "classification", as this is what the code will search for when u put it into the app.
+
+Lets pull out a subset of data to use for profiling:
+```{r}
+col.to.keep<-c(
+  "age_band",
+  "gender",
+  "exp_h_property_type_v2_desc",
+  "exp_h_outstand_mortgag_v2_desc",
+  "exp_h_reg_n_hhld_inc_bnd_desc ",
+  "exp_h_reg_n_property_bnd_desc",
+  "exp_h_family_lifestg_2011_desc",
+  "exp_h_mosaic_uk_group_desc",
+  "exp_h_child_in_hhld_2011_desc",
+  "exp_p_true_touch_group_desc",
+  "tenure_decile",
+  "classification",
+  "platform_desc",
+  "platform_desc_alt",
+  "tod_desc",
+  "content_desc"
+)
+cluster.data<-cluster.data.temp2[,colnames(cluster.data.temp2) %in% col.to.keep]
+```
+
+We also need to make sure the classification is a factor, and that it has meaningful factorl evels. This is also very important as this helps build out some of the commentary on the graphs and headline.
+
+```{r}
+cluster.data$classification<-as.factor(cluster.data$classification)
+levels(cluster.data$classification)<-c("non-techy","techy")
+```
+
+Easy Peasy! You now have a dataset at a single user level, with a factor variable called "classification". THats all the app needs now to run so savethis into the data directory of your app. the current directory is below:
+
+```{r}
+write.csv(cluster.data,file="I:\\201404\\Mine4\\02 Data\\Sprint3\\Cluster profiling\\profile-app\\data\\cluster_data.csv",row.names=FALSE)
+```
+
+You're done! Now just run the app using shiny's runApp:
+
+```{r eval=FALSE}
+runApp("I:\\201404\\Mine4\\02 Data\\Sprint3\\Cluster profiling\\profile-app")
+```
+>>>>>>> 23e624c380a4a01c4ad9188a2091a7ce55794494
