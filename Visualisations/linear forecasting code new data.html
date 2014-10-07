@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> 
+
+/* set the CSS */
+
+body { font: 12px Arial;}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+</style>
+<body>
+<!-- load the d3.js library -->    
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<h1>Peak Share split by Day (Audience 77) - 2012 only</h1>
+
+<h3>Please use these graphs as a guide as to which days were particularly low or high in terms of the average share.<br><br>
+
+Please note that I have capped the graph at 11%, as anything higher is most likely paralympics, although any extra info on these days are much appreciated.<br><br>
+
+I have highlighted in Red any of the days that are below 4.5% or above 7.5%. These were arbitrarily chosen but give a guide as to the ones that we need to understand why they are so low/so high.
+</h3>
+
+</body>
+<script>
+var data = [
+{"date":"2012-01-01","share":0.0624},
+{"date":"2012-01-08","share":0.0478},
+{"date":"2012-01-15","share":0.0546},
+{"date":"2012-01-22","share":0.068},
+{"date":"2012-01-29","share":0.0642},
+{"date":"2012-02-05","share":0.0602},
+{"date":"2012-02-12","share":0.0434},
+{"date":"2012-02-19","share":0.0692},
+{"date":"2012-02-26","share":0.0731},
+{"date":"2012-03-04","share":0.0706},
+{"date":"2012-03-11","share":0.0589},
+{"date":"2012-03-18","share":0.0736},
+{"date":"2012-03-25","share":0.1212},
+{"date":"2012-04-01","share":0.0693},
+{"date":"2012-04-08","share":0.0783},
+{"date":"2012-04-15","share":0.0733},
+{"date":"2012-04-22","share":0.067},
+{"date":"2012-04-29","share":0.0806},
+{"date":"2012-05-06","share":0.0888},
+{"date":"2012-05-13","share":0.0632},
+{"date":"2012-05-20","share":0.0721},
+{"date":"2012-05-27","share":0.0643},
+{"date":"2012-06-03","share":0.0533},
+{"date":"2012-06-10","share":0.0484},
+{"date":"2012-06-17","share":0.0802},
+{"date":"2012-06-24","share":0.0499},
+{"date":"2012-07-01","share":0.051},
+{"date":"2012-07-08","share":0.0823},
+{"date":"2012-07-15","share":0.0704},
+{"date":"2012-07-22","share":0.0762},
+{"date":"2012-07-29","share":0.074},
+{"date":"2012-08-05","share":0.0431},
+{"date":"2012-08-12","share":0.0287},
+{"date":"2012-08-19","share":0.0473},
+{"date":"2012-08-26","share":0.0684},
+{"date":"2012-09-02","share":0.1234},
+{"date":"2012-09-09","share":0.2104},
+{"date":"2012-09-16","share":0.0673},
+{"date":"2012-09-23","share":0.0612},
+{"date":"2012-09-30","share":0.0692},
+{"date":"2012-10-07","share":0.0871},
+{"date":"2012-10-14","share":0.0714},
+{"date":"2012-10-21","share":0.0725},
+{"date":"2012-10-28","share":0.0559},
+{"date":"2012-11-04","share":0.0613},
+{"date":"2012-11-11","share":0.061},
+{"date":"2012-11-18","share":0.0794},
+{"date":"2012-11-25","share":0.0694},
+{"date":"2012-12-02","share":0.0903},
+{"date":"2012-12-09","share":0.0968},
+{"date":"2012-12-16","share":0.0622},
+{"date":"2012-12-23","share":0.0877},
+{"date":"2012-12-30","share":0.0978}
+]
+
+
+
+/* Monday 2012 */
+var data1 = data
+var title1 = "Monday Peak Share";
+drawTimeSeriesGraph(data1,title1);
+
+
+
+
+/* 
+Tooltip from: http://bl.ocks.org/d3noob/6eb506b129f585ce5c8a
+line graph from here: http://www.d3noob.org/2012/12/starting-with-basic-d3-line-graph.html
+*/
+
+
+
+
+function drawTimeSeriesGraph(data,title) {
+
+//Set bounds for red dots
+var lbound = 0.045,
+	ubound = 0.075;
+	
+// Set the dimensions of the canvas / graph
+var margin = {top: 50, right: 150, bottom: 50, left: 50},
+    width = 1500 - margin.left - margin.right,
+    height = 270 - margin.top - margin.bottom;
+
+// Parse the date / time
+var parseDate = d3.time.format("%Y-%m-%d").parse,
+    formatDate = d3.time.format("%Y-%m-%d"),
+    bisectDate = d3.bisector(function(d) { return d.date; }).left;
+
+// Set the ranges
+var x = d3.time.scale().range([0, width]);
+var y = d3.scale.linear().range([height, 0]);
+
+// Define the axes
+var xAxis = d3.svg.axis().scale(x)
+    .orient("bottom").ticks(10);
+
+var yAxis = d3.svg.axis().scale(y)
+    .orient("left").ticks(10);
+
+// Define the line
+var valueline = d3.svg.line()
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.share); });
+    
+// Adds the svg canvas
+var svg = d3.select("body")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform", 
+              "translate(" + margin.left + "," + margin.top + ")");
+
+var lineSvg = svg.append("g"); 
+
+var focus = svg.append("g") 
+    .style("display", "none");
+
+// Get the data
+
+    data.forEach(function(d) {
+        d.date = parseDate(d.date);
+        d.share = +d.share;
+    });
+
+    // Scale the range of the data
+    x.domain(d3.extent(data, function(d) { return d.date; }));
+	//y.domain([0, d3.max(data, function(d) { return d.close; })]);
+    y.domain([0, 0.11]);
+
+    // Add the valueline path.
+    lineSvg.append("path")
+        .attr("class", "line")
+        .attr("d", valueline(data));
+
+    // Add the X Axis
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    // Add the Y Axis
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+
+   // append the x line
+    focus.append("line")
+        .attr("class", "x")
+        .style("stroke", "blue")
+        .style("stroke-dasharray", "3,3")
+        .style("opacity", 0.5)
+        .attr("y1", 0)
+        .attr("y2", height);
+
+    // append the y line
+    focus.append("line")
+        .attr("class", "y")
+        .style("stroke", "blue")
+        .style("stroke-dasharray", "3,3")
+        .style("opacity", 0.5)
+        .attr("x1", width)
+        .attr("x2", width);
+
+    // append the circle at the intersection
+    focus.append("circle")
+        .attr("class", "y")
+        .style("fill", "none")
+        .style("stroke", "blue")
+        .attr("r", 4);
+
+    // place the value at the intersection
+    focus.append("text")
+        .attr("class", "y1")
+        .style("stroke", "white")
+        .style("stroke-width", "3.5px")
+        .style("opacity", 0.8)
+        .attr("dx", 8)
+        .attr("dy", "-.3em");
+    focus.append("text")
+        .attr("class", "y2")
+        .attr("dx", 8)
+        .attr("dy", "-.3em");
+
+    // place the date at the intersection
+    focus.append("text")
+        .attr("class", "y3")
+        .style("stroke", "white")
+        .style("stroke-width", "3.5px")
+        .style("opacity", 0.8)
+        .attr("dx", 8)
+        .attr("dy", "1em");
+    focus.append("text")
+        .attr("class", "y4")
+        .attr("dx", 8)
+        .attr("dy", "1em");
+    
+    // append the rectangle to capture mouse
+    svg.append("rect")
+        .attr("width", width)
+        .attr("height", height)
+        .style("fill", "none")
+        .style("pointer-events", "all")
+        .on("mouseover", function() { focus.style("display", null); })
+        .on("mouseout", function() { focus.style("display", "none"); })
+        .on("mousemove", mousemove);
+
+    function mousemove() {
+		var x0 = x.invert(d3.mouse(this)[0]),
+		    i = bisectDate(data, x0, 1),
+		    d0 = data[i - 1],
+		    d1 = data[i],
+		    d = x0 - d0.date > d1.date - x0 ? d1 : d0;
+
+		focus.select("circle.y")
+		    .attr("transform",
+		          "translate(" + x(d.date) + "," +
+		                         y(d.share) + ")");
+								 
+		focus.select("circle.y")
+			.style("stroke", function() {
+			return d.share > ubound | d.share < lbound ? "red" : "blue";
+			})
+			.style("fill", function() {
+			return d.share > ubound | d.share < lbound ? "red" : "none";
+			})
+			.attr("r", function() {
+			return d.share > ubound | d.share < lbound ? 6 : 4;
+			});
+
+		focus.select("text.y1")
+		    .attr("transform",
+		          "translate(" + x(d.date) + "," +
+		                         y(d.share) + ")")
+		    .text(parseFloat(d.share*100).toFixed(2) + "%");
+
+		focus.select("text.y2")
+		    .attr("transform",
+		          "translate(" + x(d.date) + "," +
+		                         y(d.share) + ")")
+		    .text(parseFloat(d.share*100).toFixed(2) + "%");
+
+		focus.select("text.y3")
+		    .attr("transform",
+		          "translate(" + x(d.date) + "," +
+		                         y(d.share) + ")")
+		    .text(formatDate(d.date));
+
+		focus.select("text.y4")
+		    .attr("transform",
+		          "translate(" + x(d.date) + "," +
+		                         y(d.share) + ")")
+		    .text(formatDate(d.date));
+
+		focus.select(".x")
+		    .attr("transform",
+		          "translate(" + x(d.date) + "," +
+		                         y(d.share) + ")")
+		               .attr("y2", height - y(d.share));
+
+		focus.select(".y")
+		    .attr("transform",
+		          "translate(" + width * -1 + "," +
+		                         y(d.share) + ")")
+		               .attr("x2", width + width);
+	};
+	
+	svg.append("text")
+        .attr("x", (width / 2))             
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .style("text-decoration", "underline")  
+        .text(title);
+};
+</script>
