@@ -1,0 +1,380 @@
+16/08/2014	15:00	Arsenal v Crystal Palace
+16/08/2014	15:00	Burnley v Chelsea
+16/08/2014	15:00	Leicester City v Everton
+16/08/2014	15:00	Liverpool v Southampton
+16/08/2014	15:00	Manchester United v Swansea City
+16/08/2014	15:00	Newcastle United v Manchester City
+16/08/2014	15:00	Queens Park Rangers v Hull City
+16/08/2014	15:00	Stoke City v Aston Villa
+16/08/2014	15:00	West Bromwich Albion v Sunderland
+16/08/2014	15:00	West Ham United v Tottenham Hotspur
+23/08/2014	15:00	Aston Villa v Newcastle United
+23/08/2014	15:00	Chelsea v Leicester City
+23/08/2014	15:00	Crystal Palace v West Ham United
+23/08/2014	15:00	Everton v Arsenal
+23/08/2014	15:00	Hull City v Stoke City
+23/08/2014	15:00	Manchester City v Liverpool
+23/08/2014	15:00	Southampton v West Bromwich Albion
+23/08/2014	15:00	Sunderland v Manchester United
+23/08/2014	15:00	Swansea City v Burnley
+23/08/2014	15:00	Tottenham Hotspur v Queens Park Rangers
+30/08/2014	15:00	Aston Villa v Hull City
+30/08/2014	15:00	Burnley v Manchester United
+30/08/2014	15:00	Everton v Chelsea
+30/08/2014	15:00	Leicester City v Arsenal
+30/08/2014	15:00	Manchester City v Stoke City
+30/08/2014	15:00	Newcastle United v Crystal Palace
+30/08/2014	15:00	Queens Park Rangers v Sunderland
+30/08/2014	15:00	Swansea City v West Bromwich Albion
+30/08/2014	15:00	Tottenham Hotspur v Liverpool
+30/08/2014	15:00	West Ham United v Southampton
+13/09/2014	15:00	Arsenal v Manchester City
+13/09/2014	15:00	Chelsea v Swansea City
+13/09/2014	15:00	Crystal Palace v Burnley
+13/09/2014	15:00	Hull City v West Ham United
+13/09/2014	15:00	Liverpool v Aston Villa
+13/09/2014	15:00	Manchester United v Queens Park Rangers
+13/09/2014	15:00	Southampton v Newcastle United
+13/09/2014	15:00	Stoke City v Leicester City
+13/09/2014	15:00	Sunderland v Tottenham Hotspur
+13/09/2014	15:00	West Bromwich Albion v Everton
+20/09/2014	15:00	Aston Villa v Arsenal
+20/09/2014	15:00	Burnley v Sunderland
+20/09/2014	15:00	Everton v Crystal Palace
+20/09/2014	15:00	Leicester City v Manchester United
+20/09/2014	15:00	Manchester City v Chelsea
+20/09/2014	15:00	Newcastle United v Hull City
+20/09/2014	15:00	Queens Park Rangers v Stoke City
+20/09/2014	15:00	Swansea City v Southampton
+20/09/2014	15:00	Tottenham Hotspur v West Bromwich Albion
+20/09/2014	15:00	West Ham United v Liverpool
+27/09/2014	15:00	Arsenal v Tottenham Hotspur
+27/09/2014	15:00	Chelsea v Aston Villa
+27/09/2014	15:00	Crystal Palace v Leicester City
+27/09/2014	15:00	Hull City v Manchester City
+27/09/2014	15:00	Liverpool v Everton
+27/09/2014	15:00	Manchester United v West Ham United
+27/09/2014	15:00	Southampton v Queens Park Rangers
+27/09/2014	15:00	Stoke City v Newcastle United
+27/09/2014	15:00	Sunderland v Swansea City
+27/09/2014	15:00	West Bromwich Albion v Burnley
+04/10/2014	15:00	Aston Villa v Manchester City
+04/10/2014	15:00	Chelsea v Arsenal
+04/10/2014	15:00	Hull City v Crystal Palace
+04/10/2014	15:00	Leicester City v Burnley
+04/10/2014	15:00	Liverpool v West Bromwich Albion
+04/10/2014	15:00	Manchester United v Everton
+04/10/2014	15:00	Sunderland v Stoke City
+04/10/2014	15:00	Swansea City v Newcastle United
+04/10/2014	15:00	Tottenham Hotspur v Southampton
+04/10/2014	15:00	West Ham United v Queens Park Rangers
+18/10/2014	15:00	Arsenal v Hull City
+18/10/2014	15:00	Burnley v West Ham United
+18/10/2014	15:00	Crystal Palace v Chelsea
+18/10/2014	15:00	Everton v Aston Villa
+18/10/2014	15:00	Manchester City v Tottenham Hotspur
+18/10/2014	15:00	Newcastle United v Leicester City
+18/10/2014	15:00	Queens Park Rangers v Liverpool
+18/10/2014	15:00	Southampton v Sunderland
+18/10/2014	15:00	Stoke City v Swansea City
+18/10/2014	15:00	West Bromwich Albion v Manchester United
+25/10/2014	15:00	Burnley v Everton
+25/10/2014	15:00	Liverpool v Hull City
+25/10/2014	15:00	Manchester United v Chelsea
+25/10/2014	15:00	Queens Park Rangers v Aston Villa
+25/10/2014	15:00	Southampton v Stoke City
+25/10/2014	15:00	Sunderland v Arsenal
+25/10/2014	15:00	Swansea City v Leicester City
+25/10/2014	15:00	Tottenham Hotspur v Newcastle United
+25/10/2014	15:00	West Bromwich Albion v Crystal Palace
+25/10/2014	15:00	West Ham United v Manchester City
+01/11/2014	15:00	Arsenal v Burnley
+01/11/2014	15:00	Aston Villa v Tottenham Hotspur
+01/11/2014	15:00	Chelsea v Queens Park Rangers
+01/11/2014	15:00	Crystal Palace v Sunderland
+01/11/2014	15:00	Everton v Swansea City
+01/11/2014	15:00	Hull City v Southampton
+01/11/2014	15:00	Leicester City v West Bromwich Albion
+01/11/2014	15:00	Manchester City v Manchester United
+01/11/2014	15:00	Newcastle United v Liverpool
+01/11/2014	15:00	Stoke City v West Ham United
+08/11/2014	15:00	Burnley v Hull City
+08/11/2014	15:00	Liverpool v Chelsea
+08/11/2014	15:00	Manchester United v Crystal Palace
+08/11/2014	15:00	Queens Park Rangers v Manchester City
+08/11/2014	15:00	Southampton v Leicester City
+08/11/2014	15:00	Sunderland v Everton
+08/11/2014	15:00	Swansea City v Arsenal
+08/11/2014	15:00	Tottenham Hotspur v Stoke City
+08/11/2014	15:00	West Bromwich Albion v Newcastle United
+08/11/2014	15:00	West Ham United v Aston Villa
+22/11/2014	15:00	Arsenal v Manchester United
+22/11/2014	15:00	Aston Villa v Southampton
+22/11/2014	15:00	Chelsea v West Bromwich Albion
+22/11/2014	15:00	Crystal Palace v Liverpool
+22/11/2014	15:00	Everton v West Ham United
+22/11/2014	15:00	Hull City v Tottenham Hotspur
+22/11/2014	15:00	Leicester City v Sunderland
+22/11/2014	15:00	Manchester City v Swansea City
+22/11/2014	15:00	Newcastle United v Queens Park Rangers
+22/11/2014	15:00	Stoke City v Burnley
+29/11/2014	15:00	Burnley v Aston Villa
+29/11/2014	15:00	Liverpool v Stoke City
+29/11/2014	15:00	Manchester United v Hull City
+29/11/2014	15:00	Queens Park Rangers v Leicester City
+29/11/2014	15:00	Southampton v Manchester City
+29/11/2014	15:00	Sunderland v Chelsea
+29/11/2014	15:00	Swansea City v Crystal Palace
+29/11/2014	15:00	Tottenham Hotspur v Everton
+29/11/2014	15:00	West Bromwich Albion v Arsenal
+29/11/2014	15:00	West Ham United v Newcastle United
+02/12/2014	19:45	Arsenal v Southampton
+02/12/2014	19:45	Burnley v Newcastle United
+02/12/2014	20:00	Crystal Palace v Aston Villa
+02/12/2014	19:45	Leicester City v Liverpool
+02/12/2014	19:45	Manchester United v Stoke City
+02/12/2014	19:45	Swansea City v Queens Park Rangers
+02/12/2014	20:00	West Bromwich Albion v West Ham United
+03/12/2014	19:45	Chelsea v Tottenham Hotspur
+03/12/2014	19:45	Everton v Hull City
+03/12/2014	19:45	Sunderland v Manchester City
+06/12/2014	15:00	Aston Villa v Leicester City
+06/12/2014	15:00	Hull City v West Bromwich Albion
+06/12/2014	15:00	Liverpool v Sunderland
+06/12/2014	15:00	Manchester City v Everton
+06/12/2014	15:00	Newcastle United v Chelsea
+06/12/2014	15:00	Queens Park Rangers v Burnley
+06/12/2014	15:00	Southampton v Manchester United
+06/12/2014	15:00	Stoke City v Arsenal
+06/12/2014	15:00	Tottenham Hotspur v Crystal Palace
+06/12/2014	15:00	West Ham United v Swansea City
+13/12/2014	15:00	Arsenal v Newcastle United
+13/12/2014	15:00	Burnley v Southampton
+13/12/2014	15:00	Chelsea v Hull City
+13/12/2014	15:00	Crystal Palace v Stoke City
+13/12/2014	15:00	Everton v Queens Park Rangers
+13/12/2014	15:00	Leicester City v Manchester City
+13/12/2014	15:00	Manchester United v Liverpool
+13/12/2014	15:00	Sunderland v West Ham United
+13/12/2014	15:00	Swansea City v Tottenham Hotspur
+13/12/2014	15:00	West Bromwich Albion v Aston Villa
+20/12/2014	15:00	Aston Villa v Manchester United
+20/12/2014	15:00	Hull City v Swansea City
+20/12/2014	15:00	Liverpool v Arsenal
+20/12/2014	15:00	Manchester City v Crystal Palace
+20/12/2014	15:00	Newcastle United v Sunderland
+20/12/2014	15:00	Queens Park Rangers v West Bromwich Albion
+20/12/2014	15:00	Southampton v Everton
+20/12/2014	15:00	Stoke City v Chelsea
+20/12/2014	15:00	Tottenham Hotspur v Burnley
+20/12/2014	15:00	West Ham United v Leicester City
+26/12/2014	15:00	Arsenal v Queens Park Rangers
+26/12/2014	15:00	Burnley v Liverpool
+26/12/2014	15:00	Chelsea v West Ham United
+26/12/2014	15:00	Crystal Palace v Southampton
+26/12/2014	15:00	Everton v Stoke City
+26/12/2014	15:00	Leicester City v Tottenham Hotspur
+26/12/2014	15:00	Manchester United v Newcastle United
+26/12/2014	15:00	Sunderland v Hull City
+26/12/2014	15:00	Swansea City v Aston Villa
+26/12/2014	15:00	West Bromwich Albion v Manchester City
+28/12/2014	15:00	Aston Villa v Sunderland
+28/12/2014	15:00	Hull City v Leicester City
+28/12/2014	15:00	Liverpool v Swansea City
+28/12/2014	15:00	Manchester City v Burnley
+28/12/2014	15:00	Newcastle United v Everton
+28/12/2014	15:00	Queens Park Rangers v Crystal Palace
+28/12/2014	15:00	Southampton v Chelsea
+28/12/2014	15:00	Stoke City v West Bromwich Albion
+28/12/2014	15:00	Tottenham Hotspur v Manchester United
+28/12/2014	15:00	West Ham United v Arsenal
+01/01/2015	15:00	Aston Villa v Crystal Palace
+01/01/2015	15:00	Hull City v Everton
+01/01/2015	15:00	Liverpool v Leicester City
+01/01/2015	15:00	Manchester City v Sunderland
+01/01/2015	15:00	Newcastle United v Burnley
+01/01/2015	15:00	Queens Park Rangers v Swansea City
+01/01/2015	15:00	Southampton v Arsenal
+01/01/2015	15:00	Stoke City v Manchester United
+01/01/2015	15:00	Tottenham Hotspur v Chelsea
+01/01/2015	15:00	West Ham United v West Bromwich Albion
+10/01/2015	15:00	Arsenal v Stoke City
+10/01/2015	15:00	Burnley v Queens Park Rangers
+10/01/2015	15:00	Chelsea v Newcastle United
+10/01/2015	15:00	Crystal Palace v Tottenham Hotspur
+10/01/2015	15:00	Everton v Manchester City
+10/01/2015	15:00	Leicester City v Aston Villa
+10/01/2015	15:00	Manchester United v Southampton
+10/01/2015	15:00	Sunderland v Liverpool
+10/01/2015	15:00	Swansea City v West Ham United
+10/01/2015	15:00	West Bromwich Albion v Hull City
+17/01/2015	15:00	Aston Villa v Liverpool
+17/01/2015	15:00	Burnley v Crystal Palace
+17/01/2015	15:00	Everton v West Bromwich Albion
+17/01/2015	15:00	Leicester City v Stoke City
+17/01/2015	15:00	Manchester City v Arsenal
+17/01/2015	15:00	Newcastle United v Southampton
+17/01/2015	15:00	Queens Park Rangers v Manchester United
+17/01/2015	15:00	Swansea City v Chelsea
+17/01/2015	15:00	Tottenham Hotspur v Sunderland
+17/01/2015	15:00	West Ham United v Hull City
+31/01/2015	15:00	Arsenal v Aston Villa
+31/01/2015	15:00	Chelsea v Manchester City
+31/01/2015	15:00	Crystal Palace v Everton
+31/01/2015	15:00	Hull City v Newcastle United
+31/01/2015	15:00	Liverpool v West Ham United
+31/01/2015	15:00	Manchester United v Leicester City
+31/01/2015	15:00	Southampton v Swansea City
+31/01/2015	15:00	Stoke City v Queens Park Rangers
+31/01/2015	15:00	Sunderland v Burnley
+31/01/2015	15:00	West Bromwich Albion v Tottenham Hotspur
+07/02/2015	15:00	Aston Villa v Chelsea
+07/02/2015	15:00	Burnley v West Bromwich Albion
+07/02/2015	15:00	Everton v Liverpool
+07/02/2015	15:00	Leicester City v Crystal Palace
+07/02/2015	15:00	Manchester City v Hull City
+07/02/2015	15:00	Newcastle United v Stoke City
+07/02/2015	15:00	Queens Park Rangers v Southampton
+07/02/2015	15:00	Swansea City v Sunderland
+07/02/2015	15:00	Tottenham Hotspur v Arsenal
+07/02/2015	15:00	West Ham United v Manchester United
+10/02/2015	19:45	Arsenal v Leicester City
+10/02/2015	20:00	Crystal Palace v Newcastle United
+10/02/2015	19:45	Hull City v Aston Villa
+10/02/2015	20:00	Liverpool v Tottenham Hotspur
+10/02/2015	19:45	Manchester United v Burnley
+10/02/2015	19:45	Southampton v West Ham United
+10/02/2015	20:00	West Bromwich Albion v Swansea City
+11/02/2015	19:45	Chelsea v Everton
+11/02/2015	19:45	Stoke City v Manchester City
+11/02/2015	19:45	Sunderland v Queens Park Rangers
+21/02/2015	15:00	Aston Villa v Stoke City
+21/02/2015	15:00	Chelsea v Burnley
+21/02/2015	15:00	Crystal Palace v Arsenal
+21/02/2015	15:00	Everton v Leicester City
+21/02/2015	15:00	Hull City v Queens Park Rangers
+21/02/2015	15:00	Manchester City v Newcastle United
+21/02/2015	15:00	Southampton v Liverpool
+21/02/2015	15:00	Sunderland v West Bromwich Albion
+21/02/2015	15:00	Swansea City v Manchester United
+21/02/2015	15:00	Tottenham Hotspur v West Ham United
+28/02/2015	15:00	Arsenal v Everton
+28/02/2015	15:00	Burnley v Swansea City
+28/02/2015	15:00	Leicester City v Chelsea
+28/02/2015	15:00	Liverpool v Manchester City
+28/02/2015	15:00	Manchester United v Sunderland
+28/02/2015	15:00	Newcastle United v Aston Villa
+28/02/2015	15:00	Queens Park Rangers v Tottenham Hotspur
+28/02/2015	15:00	Stoke City v Hull City
+28/02/2015	15:00	West Bromwich Albion v Southampton
+28/02/2015	15:00	West Ham United v Crystal Palace
+03/03/2015	19:45	Aston Villa v West Bromwich Albion
+03/03/2015	19:45	Hull City v Sunderland
+03/03/2015	20:00	Liverpool v Burnley
+03/03/2015	19:45	Queens Park Rangers v Arsenal
+03/03/2015	19:45	Southampton v Crystal Palace
+03/03/2015	19:45	West Ham United v Chelsea
+04/03/2015	19:45	Manchester City v Leicester City
+04/03/2015	19:45	Newcastle United v Manchester United
+04/03/2015	19:45	Stoke City v Everton
+04/03/2015	19:45	Tottenham Hotspur v Swansea City
+14/03/2015	15:00	Arsenal v West Ham United
+14/03/2015	15:00	Burnley v Manchester City
+14/03/2015	15:00	Chelsea v Southampton
+14/03/2015	15:00	Crystal Palace v Queens Park Rangers
+14/03/2015	15:00	Everton v Newcastle United
+14/03/2015	15:00	Leicester City v Hull City
+14/03/2015	15:00	Manchester United v Tottenham Hotspur
+14/03/2015	15:00	Sunderland v Aston Villa
+14/03/2015	15:00	Swansea City v Liverpool
+14/03/2015	15:00	West Bromwich Albion v Stoke City
+21/03/2015	15:00	Aston Villa v Swansea City
+21/03/2015	15:00	Hull City v Chelsea
+21/03/2015	15:00	Liverpool v Manchester United
+21/03/2015	15:00	Manchester City v West Bromwich Albion
+21/03/2015	15:00	Newcastle United v Arsenal
+21/03/2015	15:00	Queens Park Rangers v Everton
+21/03/2015	15:00	Southampton v Burnley
+21/03/2015	15:00	Stoke City v Crystal Palace
+21/03/2015	15:00	Tottenham Hotspur v Leicester City
+21/03/2015	15:00	West Ham United v Sunderland
+04/04/2015	15:00	Arsenal v Liverpool
+04/04/2015	15:00	Burnley v Tottenham Hotspur
+04/04/2015	15:00	Chelsea v Stoke City
+04/04/2015	15:00	Crystal Palace v Manchester City
+04/04/2015	15:00	Everton v Southampton
+04/04/2015	15:00	Leicester City v West Ham United
+04/04/2015	15:00	Manchester United v Aston Villa
+04/04/2015	15:00	Sunderland v Newcastle United
+04/04/2015	15:00	Swansea City v Hull City
+04/04/2015	15:00	West Bromwich Albion v Queens Park Rangers
+11/04/2015	15:00	Burnley v Arsenal
+11/04/2015	15:00	Liverpool v Newcastle United
+11/04/2015	15:00	Manchester United v Manchester City
+11/04/2015	15:00	Queens Park Rangers v Chelsea
+11/04/2015	15:00	Southampton v Hull City
+11/04/2015	15:00	Sunderland v Crystal Palace
+11/04/2015	15:00	Swansea City v Everton
+11/04/2015	15:00	Tottenham Hotspur v Aston Villa
+11/04/2015	15:00	West Bromwich Albion v Leicester City
+11/04/2015	15:00	West Ham United v Stoke City
+18/04/2015	15:00	Arsenal v Sunderland
+18/04/2015	15:00	Aston Villa v Queens Park Rangers
+18/04/2015	15:00	Chelsea v Manchester United
+18/04/2015	15:00	Crystal Palace v West Bromwich Albion
+18/04/2015	15:00	Everton v Burnley
+18/04/2015	15:00	Hull City v Liverpool
+18/04/2015	15:00	Leicester City v Swansea City
+18/04/2015	15:00	Manchester City v West Ham United
+18/04/2015	15:00	Newcastle United v Tottenham Hotspur
+18/04/2015	15:00	Stoke City v Southampton
+25/04/2015	15:00	Arsenal v Chelsea
+25/04/2015	15:00	Burnley v Leicester City
+25/04/2015	15:00	Crystal Palace v Hull City
+25/04/2015	15:00	Everton v Manchester United
+25/04/2015	15:00	Manchester City v Aston Villa
+25/04/2015	15:00	Newcastle United v Swansea City
+25/04/2015	15:00	Queens Park Rangers v West Ham United
+25/04/2015	15:00	Southampton v Tottenham Hotspur
+25/04/2015	15:00	Stoke City v Sunderland
+25/04/2015	15:00	West Bromwich Albion v Liverpool
+02/05/2015	15:00	Aston Villa v Everton
+02/05/2015	15:00	Chelsea v Crystal Palace
+02/05/2015	15:00	Hull City v Arsenal
+02/05/2015	15:00	Leicester City v Newcastle United
+02/05/2015	15:00	Liverpool v Queens Park Rangers
+02/05/2015	15:00	Manchester United v West Bromwich Albion
+02/05/2015	15:00	Sunderland v Southampton
+02/05/2015	15:00	Swansea City v Stoke City
+02/05/2015	15:00	Tottenham Hotspur v Manchester City
+02/05/2015	15:00	West Ham United v Burnley
+09/05/2015	15:00	Arsenal v Swansea City
+09/05/2015	15:00	Aston Villa v West Ham United
+09/05/2015	15:00	Chelsea v Liverpool
+09/05/2015	15:00	Crystal Palace v Manchester United
+09/05/2015	15:00	Everton v Sunderland
+09/05/2015	15:00	Hull City v Burnley
+09/05/2015	15:00	Leicester City v Southampton
+09/05/2015	15:00	Manchester City v Queens Park Rangers
+09/05/2015	15:00	Newcastle United v West Bromwich Albion
+09/05/2015	15:00	Stoke City v Tottenham Hotspur
+16/05/2015	15:00	Burnley v Stoke City
+16/05/2015	15:00	Liverpool v Crystal Palace
+16/05/2015	15:00	Manchester United v Arsenal
+16/05/2015	15:00	Queens Park Rangers v Newcastle United
+16/05/2015	15:00	Southampton v Aston Villa
+16/05/2015	15:00	Sunderland v Leicester City
+16/05/2015	15:00	Swansea City v Manchester City
+16/05/2015	15:00	Tottenham Hotspur v Hull City
+16/05/2015	15:00	West Bromwich Albion v Chelsea
+16/05/2015	15:00	West Ham United v Everton
+24/05/2015	15:00	Arsenal v West Bromwich Albion
+24/05/2015	15:00	Aston Villa v Burnley
+24/05/2015	15:00	Chelsea v Sunderland
+24/05/2015	15:00	Crystal Palace v Swansea City
+24/05/2015	15:00	Everton v Tottenham Hotspur
+24/05/2015	15:00	Hull City v Manchester United
+24/05/2015	15:00	Leicester City v Queens Park Rangers
+24/05/2015	15:00	Manchester City v Southampton
+24/05/2015	15:00	Newcastle United v West Ham United
+24/05/2015	15:00	Stoke City v Liverpool
