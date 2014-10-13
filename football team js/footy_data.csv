@@ -1,0 +1,548 @@
+Player,Team,Points,Cost,Position
+Courtois,Chelsea,21,6.0,G,5
+Hart,Man City,15,6.0,G,5
+Cech,Chelsea,0,5.6,G,5
+Lloris,Spurs,22,5.6,G,5
+Szczesny,Arsenal,16,5.5,G,5
+Mignolet,Liverpool,17,5.5,G,5
+Howard,Everton,12,5.4,G,5
+Caballero,Man City,2,5.4,G,5
+De Gea,Man Utd,19,5.4,G,5
+Forster,Southampton,25,5.1,G,5
+Speroni,Crystal Palace,27,5.0,G,5
+McGregor,Hull,21,5.0,G,5
+Jones,Liverpool,0,5.0,G,5
+Begovic,Stoke,21,5.0,G,5
+Fabianski,Swansea,26,5.0,G,5
+Adri?n,West Ham,12,5.0,G,5
+Ospina,Arsenal,0,4.9,G,5
+Robles,Everton,0,4.9,G,5
+Lindegaard,Man Utd,0,4.9,G,5
+Friedel,Spurs,0,4.9,G,5
+Vorm,Spurs,0,4.9,G,5
+Boruc,Southampton,0,4.8,G,5
+Guzan,Aston Villa,24,4.6,G,5
+Heaton,Burnley,25,4.6,G,5
+Martinez,Arsenal,0,4.5,G,5
+Hennessey,Crystal Palace,0,4.5,G,5
+Harper,Hull,0,4.5,G,5
+Schmeichel,Leicester,10,4.5,G,5
+Amos,Man Utd,0,4.5,G,5
+Krul,Newcastle,14,4.5,G,5
+Green,QPR,17,4.5,G,5
+Davis K,Southampton,0,4.5,G,5
+Gazzaniga,Southampton,0,4.5,G,5
+S?rensen,Stoke,0,4.5,G,5
+Mannone,Sunderland,25,4.5,G,5
+Foster,West Brom,21,4.5,G,5
+Pantilimon,Sunderland,0,4.4,G,5
+Tremmel,Swansea,0,4.4,G,5
+J??skel?inen,West Ham,0,4.4,G,5
+Given,Aston Villa,0,4.0,G,5
+Gilks,Burnley,0,4.0,G,5
+Smith,Leicester,0,4.0,G,5
+Hamer,Leicester,8,4.0,G,5
+Elliot,Newcastle,0,4.0,G,5
+Murphy,QPR,0,4.0,G,5
+McCarthy,QPR,0,4.0,G,5
+Luke Daniels,West Brom,0,4.0,G,5
+Myhill,West Brom,0,4.0,G,5
+Ivanovic,Chelsea,37,7.3,D,5
+Baines,Everton,27,7.0,D,5
+Coleman,Everton,14,7.0,D,5
+Zabaleta,Man City,7,6.5,D,5
+Kompany,Man City,13,6.5,D,5
+Cahill,Chelsea,17,6.4,D,5
+Terry,Chelsea,16,6.4,D,5
+Koscielny,Arsenal,20,6.1,D,5
+Mertesacker,Arsenal,11,6.0,D,5
+Azpilicueta,Chelsea,25,6.0,D,5
+Mangala,Man City,0,6.0,D,5
+Demichelis,Man City,17,6.0,D,5
+Rojo,Man Utd,8,6.0,D,5
+Vertonghen,Spurs,9,6.0,D,5
+Skrtel,Liverpool,8,5.9,D,5
+Kolarov,Man City,13,5.9,D,5
+Shaw,Man Utd,2,5.8,D,5
+Walker,Spurs,0,5.8,D,5
+Moreno,Liverpool,17,5.6,D,5
+Shawcross,Stoke,29,5.6,D,5
+Filipe Luis,Chelsea,1,5.5,D,5
+Clichy,Man City,12,5.5,D,5
+Fonte,Southampton,27,5.5,D,5
+Dier,Spurs,33,5.5,D,5
+Jagielka,Everton,20,5.4,D,5
+Distin,Everton,5,5.4,D,5
+Stones,Everton,12,5.4,D,5
+Lovren,Liverpool,14,5.4,D,5
+Evans,Man Utd,15,5.4,D,5
+Clyne,Southampton,34,5.4,D,5
+Fazio,Spurs,0,5.4,D,5
+Cresswell,West Ham,8,5.4,D,5
+Gibbs,Arsenal,13,5.3,D,5
+Debuchy,Arsenal,10,5.3,D,5
+Johnson,Liverpool,3,5.3,D,5
+Sakho,Liverpool,10,5.3,D,5
+Sagna,Man City,3,5.3,D,5
+Smalling,Man Utd,2,5.3,D,5
+Jones,Man Utd,15,5.3,D,5
+Rafael,Man Utd,14,5.3,D,5
+Nastasic,Man City,0,5.2,D,5
+Bertrand,Southampton,34,5.2,D,5
+Williams,Swansea,25,5.1,D,5
+Manquillo,Liverpool,11,5.0,D,5
+Janmaat,Newcastle,20,5.0,D,5
+Alderweireld,Southampton,8,5.0,D,5
+Rose,Spurs,19,5.0,D,5
+Kaboul,Spurs,19,5.0,D,5
+Pieters,Stoke,18,5.0,D,5
+Bardsley,Stoke,23,5.0,D,5
+Fern?ndez,Swansea,9,5.0,D,5
+Rangel,Swansea,19,5.0,D,5
+McAuley,West Brom,0,5.0,D,5
+Jenkinson,West Ham,2,5.0,D,5
+Reid,West Ham,12,5.0,D,5
+Tomkins,West Ham,9,5.0,D,5
+Monreal,Arsenal,9,4.9,D,5
+Trippier,Burnley,23,4.9,D,5
+Hangeland,Crystal Palace,8,4.9,D,5
+Ward,Crystal Palace,16,4.9,D,5
+Delaney,Crystal Palace,17,4.9,D,5
+Dann,Crystal Palace,25,4.9,D,5
+Oviedo,Everton,0,4.9,D,5
+Davies,Hull,6,4.9,D,5
+Caulker,QPR,18,4.9,D,5
+Gardos,Southampton,1,4.9,D,5
+Olsson,West Brom,8,4.9,D,5
+Lescott,West Brom,13,4.9,D,5
+Tour?,Liverpool,0,4.8,D,5
+Flanagan,Liverpool,0,4.8,D,5
+Isla,QPR,8,4.8,D,5
+Chiriches,Spurs,3,4.8,D,5
+Huth,Stoke,0,4.8,D,5
+Demel,West Ham,5,4.8,D,5
+Zouma,Chelsea,0,4.7,D,5
+Dawson,Hull,3,4.7,D,5
+Jos? Enrique,Liverpool,1,4.7,D,5
+Chambers,Arsenal,16,4.6,D,5
+Davies,Spurs,1,4.6,D,5
+Taylor,Swansea,24,4.6,D,5
+Vlaar,Aston Villa,16,4.5,D,5
+Senderos,Aston Villa,20,4.5,D,5
+Cissokho,Aston Villa,20,4.5,D,5
+Shackell,Burnley,23,4.5,D,5
+Mee,Burnley,20,4.5,D,5
+Ward,Burnley,0,4.5,D,5
+Williams,Crystal Palace,0,4.5,D,5
+Kelly,Crystal Palace,12,4.5,D,5
+Robertson,Hull,10,4.5,D,5
+Chester,Hull,13,4.5,D,5
+Morgan,Leicester,12,4.5,D,5
+de Laet,Leicester,14,4.5,D,5
+Schlupp,Leicester,14,4.5,D,5
+Konchesky,Leicester,17,4.5,D,5
+Blackett,Man Utd,12,4.5,D,5
+McNair,Man Utd,2,4.5,D,5
+Williamson,Newcastle,16,4.5,D,5
+Coloccini,Newcastle,13,4.5,D,5
+Yoshida,Southampton,11,4.5,D,5
+Wilson,Stoke,22,4.5,D,5
+van Aanholt,Sunderland,20,4.5,D,5
+Vergini,Sunderland,19,4.5,D,5
+O'Shea,Sunderland,19,4.5,D,5
+Brown,Sunderland,14,4.5,D,5
+Coates,Sunderland,0,4.5,D,5
+Amat,Swansea,14,4.5,D,5
+Davidson,West Brom,2,4.5,D,5
+Dawson,West Brom,27,4.5,D,5
+Collins,West Ham,0,4.5,D,5
+Hayden,Arsenal,0,4.4,D,5
+Beller?n,Arsenal,0,4.4,D,5
+Baker,Aston Villa,10,4.4,D,5
+Clark,Aston Villa,0,4.4,D,5
+Keane,Burnley,1,4.4,D,5
+Mariappa,Crystal Palace,6,4.4,D,5
+Fryers,Crystal Palace,1,4.4,D,5
+Hibbert,Everton,2,4.4,D,5
+Ryan Taylor,Newcastle,0,4.4,D,5
+Santon,Newcastle,0,4.4,D,5
+Haidara,Newcastle,1,4.4,D,5
+Ferdinand,QPR,11,4.4,D,5
+Hill,QPR,6,4.4,D,5
+Naughton,Spurs,0,4.4,D,5
+Muniesa,Stoke,8,4.4,D,5
+Jones,Sunderland,5,4.4,D,5
+Tiendalli,Swansea,2,4.4,D,5
+Kingsley,Swansea,0,4.4,D,5
+Gamboa,West Brom,6,4.4,D,5
+Pocognoli,West Brom,16,4.4,D,5
+O'Brien,West Ham,9,4.4,D,5
+Lowton,Aston Villa,0,4.3,D,5
+Okore,Aston Villa,0,4.3,D,5
+Ak?,Chelsea,0,4.3,D,5
+Alcaraz,Everton,0,4.3,D,5
+Maguire,Hull,0,4.3,D,5
+Rosenior,Hull,6,4.3,D,5
+Figueroa,Hull,0,4.3,D,5
+Simpson,Leicester,2,4.3,D,5
+Boyata,Man City,0,4.3,D,5
+James,Man Utd,0,4.3,D,5
+Dunne,QPR,1,4.3,D,5
+Onuoha,QPR,1,4.3,D,5
+Dionatan,Stoke,0,4.3,D,5
+Hutton,Aston Villa,20,4.2,D,5
+Duff,Burnley,24,4.2,D,5
+Cameron,Stoke,0,4.2,D,5
+Wisdom,West Brom,22,4.1,D,5
+Donacien,Aston Villa,0,4.0,D,5
+Dummigan,Burnley,0,4.0,D,5
+McCarthy,Crystal Palace,0,4.0,D,5
+Hunt,Crystal Palace,0,4.0,D,5
+Inniss,Crystal Palace,0,4.0,D,5
+Browning,Everton,1,4.0,D,5
+McShane,Hull,5,4.0,D,5
+Dudgeon,Hull,0,4.0,D,5
+Moore,Leicester,10,4.0,D,5
+Thorpe,Man Utd,1,4.0,D,5
+Dummett,Newcastle,11,4.0,D,5
+Satka,Newcastle,0,4.0,D,5
+Stephens,Southampton,0,4.0,D,5
+McCarthy,Southampton,0,4.0,D,5
+Richards,Swansea,1,4.0,D,5
+Daniels,West Brom,0,4.0,D,5
+Baird,West Brom,1,4.0,D,5
+Burke,West Ham,0,4.0,D,5
+Potts,West Ham,0,4.0,D,5
+Chambers,West Ham,0,4.0,D,5
+Long,Burnley,0,3.9,D,5
+Lafferty,Burnley,0,3.9,D,5
+Garbutt,Everton,0,3.9,D,5
+Bruce,Hull,1,3.9,D,5
+Wasilewski,Leicester,0,3.9,D,5
+Upson,Leicester,0,3.9,D,5
+Steven Taylor,Newcastle,1,3.9,D,5
+Yun,QPR,0,3.9,D,5
+Targett,Southampton,1,3.9,D,5
+Veljkovic,Spurs,0,3.9,D,5
+Wilkinson,Stoke,0,3.9,D,5
+Tate,Swansea,0,3.9,D,5
+Bartley,Swansea,0,3.9,D,5
+O'Neil,West Brom,0,3.9,D,5
+Yaya Tour?,Man City,8,10.7,M,5
+S?nchez,Arsenal,23,10.3,M,5
+Di Mar?a,Man Utd,30,10.0,M,5
+Hazard,Chelsea,28,9.9,M,5
+F?bregas,Chelsea,35,9.5,M,5
+Silva,Man City,25,9.1,M,5
+Walcott,Arsenal,0,9.0,M,5
+?zil,Arsenal,23,9.0,M,5
+Ramsey,Arsenal,29,8.9,M,5
+Gerrard,Liverpool,30,8.9,M,5
+Sterling,Liverpool,35,8.9,M,5
+Mata,Man Utd,24,8.7,M,5
+Lallana,Liverpool,4,8.4,M,5
+Oscar,Chelsea,19,8.3,M,5
+Cazorla,Arsenal,11,8.2,M,5
+Nasri,Man City,12,8.2,M,5
+Lamela,Spurs,22,8.0,M,5
+Eriksen,Spurs,22,7.9,M,5
+Willian,Chelsea,21,7.7,M,5
+Coutinho,Liverpool,6,7.7,M,5
+Tadic,Southampton,24,7.5,M,5
+Sch?rrle,Chelsea,19,7.4,M,5
+Mirallas,Everton,20,7.4,M,5
+Cabella,Newcastle,15,7.4,M,5
+Markovic,Liverpool,5,7.3,M,5
+Navas,Man City,14,7.3,M,5
+Herrera,Man Utd,23,7.3,M,5
+Fernandinho,Man City,6,6.9,M,5
+de Jong,Newcastle,3,6.9,M,5
+Man?,Southampton,4,6.9,M,5
+Paulinho,Spurs,1,6.8,M,5
+Barkley,Everton,0,6.7,M,5
+Sigurdsson,Swansea,36,6.7,M,5
+Wilshere,Arsenal,17,6.4,M,5
+Chamberlain,Arsenal,17,6.4,M,5
+Fellaini,Man Utd,1,6.3,M,5
+Gouffran,Newcastle,18,6.3,M,5
+Lennon,Spurs,5,6.3,M,5
+Townsend,Spurs,2,6.3,M,5
+Arnautovic,Stoke,7,6.3,M,5
+Johnson,Sunderland,18,6.3,M,5
+Nolan,West Ham,3,6.3,M,5
+Januzaj,Man Utd,6,6.2,M,5
+Chadli,Spurs,36,6.2,M,5
+Odemwingie,Stoke,3,6.2,M,5
+Salah,Chelsea,1,6.1,M,5
+Henderson,Liverpool,21,6.0,M,5
+Varela,West Brom,0,6.0,M,5
+Puncheon,Crystal Palace,24,5.9,M,5
+Atsu,Everton,3,5.9,M,5
+Valencia,Man Utd,12,5.9,M,5
+Sissoko,Newcastle,12,5.9,M,5
+Schneiderlin,Southampton,32,5.9,M,5
+?lvarez,Sunderland,3,5.9,M,5
+Giaccherini,Sunderland,4,5.9,M,5
+Pienaar,Everton,7,5.8,M,5
+Ben Arfa,Hull,2,5.8,M,5
+Montero,Swansea,6,5.8,M,5
+Dyer,Swansea,33,5.8,M,5
+Snodgrass,Hull,1,5.7,M,5
+Adam,Stoke,8,5.7,M,5
+Sessegnon,West Brom,8,5.7,M,5
+Larsson,Sunderland,27,5.6,M,5
+Downing,West Ham,29,5.6,M,5
+Ramires,Chelsea,20,5.5,M,5
+Matic,Chelsea,24,5.5,M,5
+McArthur,Crystal Palace,11,5.5,M,5
+McGeady,Everton,18,5.5,M,5
+Ram?rez,Hull,3,5.5,M,5
+Blind,Man Utd,7,5.5,M,5
+Fer,QPR,14,5.5,M,5
+Moses,Stoke,16,5.5,M,5
+Routledge,Swansea,23,5.5,M,5
+Blanco,West Brom,1,5.5,M,5
+Gardner,West Brom,16,5.5,M,5
+Morrison,West Brom,17,5.5,M,5
+Noble,West Ham,22,5.5,M,5
+Arteta,Arsenal,8,5.4,M,5
+N'Zogbia,Aston Villa,11,5.4,M,5
+Cole,Aston Villa,0,5.4,M,5
+Zaha,Crystal Palace,9,5.4,M,5
+Bolasie,Crystal Palace,20,5.4,M,5
+Ledley,Crystal Palace,7,5.4,M,5
+Huddlestone,Hull,16,5.4,M,5
+Diam?,Hull,21,5.4,M,5
+Lampard,Man City,12,5.4,M,5
+Carrick,Man Utd,0,5.4,M,5
+Demb?l?,Spurs,7,5.4,M,5
+Buckley,Sunderland,9,5.4,M,5
+Shelvey,Swansea,18,5.4,M,5
+Brunt,West Brom,22,5.4,M,5
+Cleverley,Aston Villa,7,5.3,M,5
+Livermore,Hull,12,5.3,M,5
+Ince,Hull,5,5.3,M,5
+Drinkwater,Leicester,7,5.3,M,5
+Knockaert,Leicester,2,5.3,M,5
+Milner,Man City,13,5.3,M,5
+Sinclair,Man City,0,5.3,M,5
+Taarabt,QPR,1,5.3,M,5
+Jarvis,West Ham,0,5.3,M,5
+Bacuna,Aston Villa,2,5.2,M,5
+Osman,Everton,8,5.2,M,5
+Can,Liverpool,1,5.2,M,5
+Mutch,QPR,10,5.2,M,5
+Walters,Stoke,3,5.2,M,5
+Sidwell,Stoke,2,5.2,M,5
+Jordi G?mez,Sunderland,4,5.2,M,5
+Young,Man Utd,5,5.1,M,5
+Ki Sung-Yueng,Swansea,20,5.1,M,5
+Delph,Aston Villa,15,5.0,M,5
+Richardson,Aston Villa,18,5.0,M,5
+Arfield,Burnley,18,5.0,M,5
+Cambiasso,Leicester,10,5.0,M,5
+Pereira,Man Utd,0,5.0,M,5
+Aarons,Newcastle,9,5.0,M,5
+Kranjcar,QPR,13,5.0,M,5
+Ward-Prowse,Southampton,17,5.0,M,5
+Mason,Spurs,1,5.0,M,5
+Capoue,Spurs,14,5.0,M,5
+Whelan,Stoke,11,5.0,M,5
+N'Zonzi,Stoke,14,5.0,M,5
+Rodwell,Sunderland,17,5.0,M,5
+Dorrans,West Brom,25,5.0,M,5
+Kouyate,West Ham,11,5.0,M,5
+Song,West Ham,4,5.0,M,5
+Amalfitano,West Ham,9,5.0,M,5
+Gnabry,Arsenal,0,4.9,M,5
+Flamini,Arsenal,6,4.9,M,5
+Westwood,Aston Villa,12,4.9,M,5
+Taylor,Burnley,10,4.9,M,5
+Bannan,Crystal Palace,2,4.9,M,5
+Jedinak,Crystal Palace,28,4.9,M,5
+Williams,Crystal Palace,2,4.9,M,5
+McCarthy,Everton,15,4.9,M,5
+Barry,Everton,14,4.9,M,5
+Elmohamady,Hull,19,4.9,M,5
+Powell,Leicester,0,4.9,M,5
+Mahrez,Leicester,8,4.9,M,5
+Allen,Liverpool,8,4.9,M,5
+Fernando,Man City,5,4.9,M,5
+Anita,Newcastle,7,4.9,M,5
+Colback,Newcastle,11,4.9,M,5
+Barton,QPR,8,4.9,M,5
+Phillips,QPR,10,4.9,M,5
+Sandro,QPR,3,4.9,M,5
+Stambouli,Spurs,1,4.9,M,5
+Assaidi,Stoke,2,4.9,M,5
+Mulumbu,West Brom,7,4.9,M,5
+Morrison,West Ham,1,4.9,M,5
+Rosicky,Arsenal,1,4.8,M,5
+Diaby,Arsenal,0,4.8,M,5
+Zelalem,Arsenal,0,4.8,M,5
+Kightly,Burnley,3,4.8,M,5
+Baker,Chelsea,0,4.8,M,5
+Meyler,Hull,3,4.8,M,5
+Suso,Liverpool,0,4.8,M,5
+Anderson,Man Utd,1,4.8,M,5
+Davis,Southampton,12,4.8,M,5
+Ireland,Stoke,3,4.8,M,5
+Besic,Everton,3,4.7,M,5
+Brady,Hull,3,4.7,M,5
+Aluko,Hull,1,4.7,M,5
+Fletcher,Man Utd,7,4.7,M,5
+Hoilett,QPR,7,4.7,M,5
+Wright-Phillips,QPR,0,4.7,M,5
+Cattermole,Sunderland,18,4.6,M,5
+Coquelin,Arsenal,0,4.5,M,5
+Grealish,Aston Villa,3,4.5,M,5
+S?nchez,Aston Villa,4,4.5,M,5
+Marney,Burnley,11,4.5,M,5
+Jones,Burnley,13,4.5,M,5
+Chalobah,Burnley,0,4.5,M,5
+Thomas,Crystal Palace,0,4.5,M,5
+Quinn,Hull,17,4.5,M,5
+Hammond,Leicester,10,4.5,M,5
+King,Leicester,13,4.5,M,5
+Traore,QPR,9,4.5,M,5
+McQueen,Southampton,0,4.5,M,5
+Wanyama,Southampton,17,4.5,M,5
+Bentaleb,Spurs,6,4.5,M,5
+Sheehan,Swansea,0,4.5,M,5
+Fulton,Swansea,0,4.5,M,5
+Gardner,Aston Villa,0,4.4,M,5
+Johnson,Aston Villa,0,4.4,M,5
+Wallace,Burnley,3,4.4,M,5
+Reid,Burnley,2,4.4,M,5
+Boyd,Burnley,8,4.4,M,5
+Mikel,Chelsea,7,4.4,M,5
+Brown,Chelsea,0,4.4,M,5
+Gu?dioura,Crystal Palace,2,4.4,M,5
+Boateng,Crystal Palace,0,4.4,M,5
+Gibson,Everton,1,4.4,M,5
+Ledson,Everton,0,4.4,M,5
+James,Leicester,2,4.4,M,5
+Taylor-Fletcher,Leicester,1,4.4,M,5
+Albrighton,Leicester,1,4.4,M,5
+Lucas,Liverpool,3,4.4,M,5
+Rossiter,Liverpool,0,4.4,M,5
+Lingard,Man Utd,1,4.4,M,5
+Obertan,Newcastle,2,4.4,M,5
+Tiote,Newcastle,7,4.4,M,5
+Abeid,Newcastle,0,4.4,M,5
+Bigirimana,Newcastle,0,4.4,M,5
+Guti?rrez,Newcastle,0,4.4,M,5
+Ameobi,Newcastle,2,4.4,M,5
+Faurlin,QPR,3,4.4,M,5
+Henry,QPR,3,4.4,M,5
+Cork,Southampton,14,4.4,M,5
+Reed,Southampton,0,4.4,M,5
+Winks,Spurs,0,4.4,M,5
+Palacios,Stoke,0,4.4,M,5
+Shea,Stoke,0,4.4,M,5
+Ness,Stoke,0,4.4,M,5
+Ward,Stoke,0,4.4,M,5
+Cabral,Sunderland,0,4.4,M,5
+Mavrias,Sunderland,0,4.4,M,5
+Bridcutt,Sunderland,1,4.4,M,5
+Agnew,Sunderland,0,4.4,M,5
+Carroll,Swansea,1,4.4,M,5
+Britton,Swansea,0,4.4,M,5
+King,Swansea,0,4.4,M,5
+Yacob,West Brom,2,4.4,M,5
+Roofe,West Brom,0,4.4,M,5
+Poyet,West Ham,3,4.4,M,5
+Isgrove,Southampton,1,4.3,M,5
+van Persie,Man Utd,19,12.4,F,5
+Ag?ero,Man City,30,12.2,F,5
+Sturridge,Liverpool,10,11.3,F,5
+Diego Costa,Chelsea,48,11.1,F,5
+Falcao,Man Utd,11,10.9,F,5
+Rooney,Man Utd,27,10.3,F,5
+Balotelli,Liverpool,13,9.9,F,5
+Lukaku,Everton,25,9.0,F,5
+Dzeko,Man City,24,8.5,F,5
+Adebayor,Spurs,24,8.5,F,5
+Bony,Swansea,9,8.3,F,5
+Giroud,Arsenal,6,8.1,F,5
+Jovetic,Man City,17,8.0,F,5
+Benteke,Aston Villa,0,7.9,F,5
+Pell?,Southampton,37,7.8,F,5
+Soldado,Spurs,1,7.7,F,5
+Rodriguez,Southampton,0,7.4,F,5
+Podolski,Arsenal,2,7.3,F,5
+Welbeck,Arsenal,18,7.2,F,5
+Remy,Chelsea,10,7.2,F,5
+Lambert,Liverpool,8,7.0,F,5
+Hern?ndez,Hull,14,6.9,F,5
+Rivi?re,Newcastle,14,6.9,F,5
+Carroll,West Ham,0,6.9,F,5
+Valencia,West Ham,17,6.9,F,5
+Gomis,Swansea,7,6.7,F,5
+Vargas,QPR,8,6.5,F,5
+Diouf,Stoke,19,6.4,F,5
+Z?rate,West Ham,13,6.4,F,5
+Drogba,Chelsea,4,6.2,F,5
+Borini,Liverpool,3,6.1,F,5
+Koz?k,Aston Villa,0,6.0,F,5
+Jelavic,Hull,25,6.0,F,5
+Eto'o,Everton,7,5.9,F,5
+Ulloa,Leicester,38,5.9,F,5
+Ciss?,Newcastle,12,5.9,F,5
+Ings,Burnley,6,5.8,F,5
+Austin,QPR,18,5.8,F,5
+Wickham,Sunderland,11,5.8,F,5
+Ferreyra,Newcastle,0,5.7,F,5
+Long,Southampton,8,5.7,F,5
+Crouch,Stoke,26,5.7,F,5
+Ideye,West Brom,5,5.7,F,5
+Weimann,Aston Villa,27,5.5,F,5
+Berahino,West Brom,33,5.5,F,5
+Sakho,West Ham,21,5.5,F,5
+Agbonlahor,Aston Villa,24,5.4,F,5
+Vokes,Burnley,0,5.4,F,5
+Gayle,Crystal Palace,10,5.4,F,5
+Chamakh,Crystal Palace,13,5.4,F,5
+Kon?,Everton,0,5.4,F,5
+Campbell,Crystal Palace,21,5.3,F,5
+Naismith,Everton,27,5.3,F,5
+Fletcher,Sunderland,7,5.3,F,5
+Altidore,Sunderland,4,5.3,F,5
+Campbell,Arsenal,1,5.2,F,5
+Murray,Crystal Palace,1,5.2,F,5
+Nugent,Leicester,16,5.2,F,5
+Bojan,Stoke,4,5.1,F,5
+Sagbo,Hull,0,5.0,F,5
+Vardy,Leicester,24,5.0,F,5
+Pozo,Man City,0,5.0,F,5
+Samaras,West Brom,2,5.0,F,5
+Cole,West Ham,11,5.0,F,5
+Akpom,Arsenal,0,4.9,F,5
+Jutkiewicz,Burnley,12,4.9,F,5
+Doyle,Crystal Palace,2,4.9,F,5
+Ayoze,Newcastle,5,4.9,F,5
+Kane,Spurs,4,4.9,F,5
+Emnes,Swansea,1,4.9,F,5
+Anichebe,West Brom,7,4.9,F,5
+Bent,Aston Villa,4,4.8,F,5
+Sordell,Burnley,4,4.8,F,5
+Mayuka,Southampton,0,4.8,F,5
+Gallagher,Southampton,0,4.8,F,5
+Graham,Sunderland,0,4.8,F,5
+Sanogo,Arsenal,7,4.7,F,5
+Johnson,Crystal Palace,0,4.5,F,5
+Lawrence,Leicester,0,4.5,F,5
+Hopper,Leicester,0,4.5,F,5
+Wood,Leicester,6,4.5,F,5
+Donnelly,Swansea,0,4.5,F,5
+Robinson,Aston Villa,0,4.4,F,5
+Barnes,Burnley,5,4.4,F,5
+McAleny,Everton,0,4.4,F,5
+Barmby,Leicester,0,4.4,F,5
+Wilson,Man Utd,0,4.4,F,5
+Campbell,Newcastle,0,4.4,F,5
+Armstrong,Newcastle,0,4.4,F,5
+Zamora,QPR,5,4.4,F,5
+Mandron,Sunderland,0,4.4,F,5
+Vaz Te,West Ham,5,4.4,F,5
+Lee,West Ham,0,4.4,F,5
