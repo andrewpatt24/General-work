@@ -1,0 +1,4 @@
+cron:
+- description: getfootydata
+  url: /
+  schedule: every day 10:00

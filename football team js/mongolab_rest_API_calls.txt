@@ -1,0 +1,18 @@
+Base URL:					https://api.mongolab.com/api/1
+
+List Databases:				/databases
+
+Example:					https://api.mongolab.com/api/1/databases?apiKey=myAPIKey
+
+Databases for a cluster:	/clusters/{cluster}/databases
+List Collections:			/databases/{database}/collections
+List Documents:				/databases/{database}/collections/{collection}
+										Optional parameters (MongoDB reference):
+
+											q=<query> - restrict results by the specified JSON query e.g. databases/my-db/collections/my-coll?q={"active": true}&apiKey=myAPIKey
+											c=true - return the result count for this query e.g. databases/my-db/collections/my-coll?q={"active": true}&c=true&apiKey=myAPIKey
+											f=<set of fields> - specify the set of fields to include or exclude in each document (1 - include; 0 - exclude) e.g. databases/my-db/collections/my-coll?f={"firstName": 1, "lastName": 1}&apiKey=myAPIKey or databases/my-db/collections/my-coll?f={"notes": 0}&apiKey=myAPIKey
+											fo=true - return a single document from the result set (same as findOne() using the mongo shell e.g. databases/my-db/collections/my-coll?q={"active": true}&fo=true&apiKey=myAPIKey
+											s=<sort order> - specify the order in which to sort each specified field (1- ascending; -1 - descending) e.g. databases/my-db/collections/my-coll?s={"priority": 1, "difficulty": -1}&apiKey=myAPIKey
+											sk=<num results to skip> - specify the number of results to skip in the result set; useful for paging e.g. databases/my-db/collections/my-coll?s={"name":1}&sk=20&l=10&apiKey=myAPIKey
+											l=<limit> - specify the limit for the number of results (default is 1000) e.g. above
